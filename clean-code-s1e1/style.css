@@ -59,7 +59,8 @@
   outline: none;
 }
 
-.delete {
+.delete,
+.edit {
   background: none;
   border: 0px;
   color: #888;
