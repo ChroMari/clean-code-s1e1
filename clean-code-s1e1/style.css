@@ -43,16 +43,16 @@
 }
 
 #incomplete-tasks, #completed-tasks {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 
 .edit-mode, .title {
-  list-style:none;
+  list-style: none;
 }
 
 .task-wrapper__task, .delete{
-  outline:none;
+  outline: none;
 }
 
 .delete {
@@ -165,14 +165,14 @@
 /* Edit Task */
 
 .task-name {
-  display:none
+  display: none
 }
 
 .task-edit {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .task-edit {
-  display:none;
+  display: none;
 }
