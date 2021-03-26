@@ -22,7 +22,8 @@
 
 @media (max-width:768px) {
 
-.header { text-align: center;
+.header { 
+  text-align: center;
 }
 
 }
@@ -42,16 +43,19 @@
   display: flex;
 }
 
-#incomplete-tasks, #completed-tasks {
+#incomplete-tasks, 
+#completed-tasks {
   margin: 0;
   padding: 0px;
 }
 
-.edit-mode, .title {
+.edit-mode, 
+.title {
   list-style: none;
 }
 
-.task-wrapper__task, .delete{
+.task-wrapper__task, 
+.delete {
   outline: none;
 }
 
