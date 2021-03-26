@@ -35,7 +35,7 @@
 .task-wrapper__task {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 
 .task-wrapper {
@@ -138,7 +138,7 @@
 }
 
 .task-name {
-  width: 226px
+  width: 226px;
 }
 
 .delete:hover {
@@ -158,19 +158,19 @@
 /* Completed */
 
 .edit-mode__text {
-  text-decoration: line-through
+  text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
 
 .task-name {
-  display: none
+  display: none;
 }
 
 .task-edit {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 .task-edit {
