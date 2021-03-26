@@ -10,10 +10,10 @@ body {
   display: block;
   text-align: right;
 }
-.wrapper img {
+.wrapper__img {
   width: 100%;
 }
-.wrapper .more-inf {
+.wrapper .wrapper__info {
   font-family: fantasy, cursive;
 }
 
@@ -26,12 +26,12 @@ body {
   width: 500px;
   margin: 0 auto 0;
 }
-.task {
+.task-wrapper__task {
   width: 56%;
   display: inline-block;
   flex-grow: 1
 }
-.task-row-wrapper {
+.task-wrapper {
   display: flex;
 }
 ul {
