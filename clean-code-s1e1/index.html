@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Todo App</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" 
+          rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="style.css" media="screen" charset="utf-8">
+  </head>
+
+  <body class="body">
+  <header class="header">
+    <img class="header__img" src="./eisenhower-matrix.jpg" alt="Eisenhower matrix">
+    <a class="header__info" 
+        href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
+  </header>
+
+  <section class="wrapper">
+    <article>
+      <h3 class="title">Add Item</h3>
+      <div class="wrapper-add">
+        <input class="wrapper-add__input" type="text">
+        <button class="btn">Add</button>
+      </div>
+    </article>
+    <h3 class="title">Todo</h3>
+    <ul class="todo">
+      <li class="todo__item">
+        <input class="todo__item-check" type="checkbox">
+        <label class="todo__item-text">Pay Bills</label>
+        <input class="todo__item-input todo__item-input_none" type="text">
+        <button class="btn">Edit</button>
+        <button class="btn">
+          <img class="btn__img" src="./remove.svg" alt="Img delete">
+        </button>
+      </li>
+      <li class="todo__item">
+        <input class="todo__item-check" type="checkbox">
+        <label class="todo__item-text">Go Shopping</label>
+        <input class="todo__item-input" type="text" value="Go Shopping">
+        <button class="btn">Save</button>
+        <button class="btn">
+          <img class="btn__img" src="./remove.svg" alt="Img delete">
+        </button>
+      </li>
+    </ul>
+    <h3 class="title">Completed</h3>
+    <ul class="todo">
+      <li class="todo__item">
+        <input class="todo__item-check" type="checkbox" checked>
+        <label class="todo__item-text todo__item-text_complit">See the Doctor</label>
+        <input class="todo__item-input todo__item-input_none" type="text">
+        <button class="btn">Edit</button>
+        <button class="btn">
+          <img class="btn__img" src="./remove.svg" alt="Img delete">
+        </button>
+      </li>
+    </ul>
+  </section>
+
+  <script src="app.js"></script>
+  </body>
+</html>
